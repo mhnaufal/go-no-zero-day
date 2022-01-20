@@ -1,4 +1,4 @@
-package main
+package day_1
 
 import "fmt"
 
@@ -22,7 +22,7 @@ func Variable() {
 	/** String */
 	fullName := "My full name"
 	fmt.Printf("Here it is my full name = %v\n\n", fullName)
-	
+
 	// get the length of the string
 	nameLength := len(fullName)
 	fmt.Printf("My full name length is approximately = %v\n\n", nameLength)
@@ -39,9 +39,9 @@ func Variable() {
 
 	/** Multiple variable declaration */
 	var (
-		x int64 = 10 
+		x int64   = 10
 		y float64 = 3.
-		z int64 = 2
+		z int64   = 2
 	)
 
 	fmt.Printf("z is %d, y is %.2f, z is %d\n\n", x, y, z)

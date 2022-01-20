@@ -1,4 +1,4 @@
-package main
+package day_1
 
 import "fmt"
 
@@ -13,7 +13,7 @@ func Condition() {
 	} else {
 		fmt.Println("Keep it up!")
 	}
-			
+
 	/** Switch statement */
 	switch {
 	case gpa > 3.5:
