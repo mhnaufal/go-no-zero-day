@@ -14,7 +14,7 @@ func Condition() {
 		fmt.Println("Keep it up!")
 	}
 			
-			/** Switch statement */
+	/** Switch statement */
 	switch {
 	case gpa > 3.5:
 		fmt.Println("Cumlaude 👨‍🎓")
