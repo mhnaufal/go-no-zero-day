@@ -18,6 +18,7 @@ func Array() {
 	fmt.Println("-----------------------------------------------")
 
 	var programming_language = [3]string{"Rust", "Go", "C++"}
+	// var programming_language = [...]string{"Rust", "Go", "C++"}
 	fmt.Println("Programming Languages: "+programming_language[0], programming_language[1], programming_language[2])
 	fmt.Println("Length of the array: ", len(programming_language))
 
