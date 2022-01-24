@@ -7,8 +7,8 @@ go run main.go other.go
 ```
 
 #### Source
-[dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
-[gobyexample](https://gobyexample.com/)
+- [dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
+- [gobyexample](https://gobyexample.com/)
 
 ### 📅 Day 1
 
