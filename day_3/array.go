@@ -17,12 +17,12 @@ func Array() {
 
 	fmt.Println("-----------------------------------------------")
 
-	var programming_language = [3]string{"Rust", "Go", "C++"}
-	// var programming_language = [...]string{"Rust", "Go", "C++"}
-	fmt.Println("Programming Languages: "+programming_language[0], programming_language[1], programming_language[2])
-	fmt.Println("Length of the array: ", len(programming_language))
+	var programmingLanguages = [3]string{"Rust", "Go", "C++"}
+	// var programmingLanguages = [...]string{"Rust", "Go", "C++"}
+	fmt.Println("Programming Languages: "+programmingLanguages[0], programmingLanguages[1], programmingLanguages[2])
+	fmt.Println("Length of the array: ", len(programmingLanguages))
 
-	var frameworks = make([]string, len(programming_language))
+	var frameworks = make([]string, len(programmingLanguages))
 	frameworks[0] = "Laravel"
 	frameworks[1] = "Rocket"
 	fmt.Println(frameworks)
