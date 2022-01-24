@@ -2,6 +2,14 @@
 
 ---
 
+```go
+go run main.go other.go
+```
+
+#### Source
+[dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
+[gobyexample](https://gobyexample.com/)
+
 ### 📅 Day 1
 
 - Every go package has main function that ack like main in C or C++
@@ -15,6 +23,7 @@
 - 'for' loop with 'range' results index and item from the given iterator
 - TL;DR looping == 'for'
 
-```go
-go run main.go other.go
-```
+### 📅 Day 3
+
+- Initiate an array
+- Looping each element in the array
