@@ -5,6 +5,7 @@ import (
 	"no-zero-day/day_1"
 	"no-zero-day/day_2"
 	"no-zero-day/day_3"
+	"no-zero-day/day_4"
 )
 
 func main() {
@@ -18,4 +19,7 @@ func main() {
 	
 	fmt.Println("Day Three")
 	day_3.Array()
+
+	fmt.Println("Day Four")
+	day_4.Slices()
 }
