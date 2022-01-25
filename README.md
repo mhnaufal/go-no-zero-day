@@ -37,3 +37,7 @@ go run main.go other.go
 - Slice do not copy the array instead it creates a new value that point/refer to the original array
 - Slice function: copy, append, cap, len
 - Array is a set of element whereas slice is reference to each of the element
+
+### 📅 Day 5
+- [key] = value pair similiar in other programming languages
+- 
