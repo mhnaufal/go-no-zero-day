@@ -6,6 +6,7 @@ import (
 	"no-zero-day/day_2"
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
+	"no-zero-day/day_5"
 )
 
 func main() {
@@ -14,12 +15,15 @@ func main() {
 	day_1.Constant()
 	day_1.Condition()
 
-	fmt.Println("Day Two")
+	fmt.Println("\nDay Two")
 	day_2.Loop()
 	
-	fmt.Println("Day Three")
+	fmt.Println("\nDay Three")
 	day_3.Array()
 
-	fmt.Println("Day Four")
+	fmt.Println("\nDay Four")
 	day_4.Slices()
+
+	fmt.Println("\nDay Five")
+	day_5.Map()
 }
