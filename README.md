@@ -40,4 +40,4 @@ go run main.go other.go
 
 ### 📅 Day 5
 - [key] = value pair similiar in other programming languages
-- 
+- Detect if a value exist in a map by creating a two variable accessing a key from the map
