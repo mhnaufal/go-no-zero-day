@@ -7,6 +7,7 @@ go run main.go other.go
 ```
 
 #### Source
+
 - [dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
 - [gobyexample](https://gobyexample.com/)
 
@@ -31,6 +32,7 @@ go run main.go other.go
 - When we call array[2] it means we create a copy of the third element of the array, NOT reference to the actual array element itself
 
 ### 📅 Day 4
+
 - [Slices](https://go.dev/blog/slices-intro)
 - Slice has no specific length
 - Slice can be created by using built-in functions 'make' that take element type (T), a length (len), and an optional capacity (cap) and will return a slice refer to the array
@@ -39,5 +41,11 @@ go run main.go other.go
 - Array is a set of element whereas slice is reference to each of the element
 
 ### 📅 Day 5
+
 - [key] = value pair similiar in other programming languages
 - Detect if a value exist in a map by creating a two variable accessing a key from the map
+
+### 📅 Day
+
+- Like usual function in other programming languages, except for the syntax
+- Function in Go can has multiple return values
