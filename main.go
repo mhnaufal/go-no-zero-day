@@ -7,6 +7,7 @@ import (
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
+	"no-zero-day/day_6"
 )
 
 func main() {
@@ -26,4 +27,7 @@ func main() {
 
 	fmt.Println("\nDay Five")
 	day_5.Map()
+
+	fmt.Println("\nDay Six")
+	day_6.Function()
 }
