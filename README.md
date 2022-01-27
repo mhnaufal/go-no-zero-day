@@ -45,7 +45,14 @@ go run main.go other.go
 - [key] = value pair similiar in other programming languages
 - Detect if a value exist in a map by creating a two variable accessing a key from the map
 
-### 📅 Day
+### 📅 Day 6
 
 - Like usual function in other programming languages, except for the syntax
 - Function in Go can has multiple return values
+
+### 📅 Day 7
+
+- Variadic function is a function with infinite number of arguments
+- fmt.Println() is one of them
+- We can combine usual parameter with the trailing parameters
+- Trailing paramters can only be placed as a final parameter of the function
