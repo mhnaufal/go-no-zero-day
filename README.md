@@ -56,3 +56,9 @@ go run main.go other.go
 - fmt.Println() is one of them
 - We can combine usual parameter with the trailing parameters
 - Trailing paramters can only be placed as a final parameter of the function
+
+### 📅 Day 8
+
+- Go support for anonymous functions
+- [Closure](<https://en.wikipedia.org/wiki/Closure_(computer_programming)>)
+- Closure is like a function inside a closure with non-local variables
