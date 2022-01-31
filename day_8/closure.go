@@ -24,6 +24,8 @@ func Closure() {
 	newNext := sequence() //restart from 1
 	fmt.Printf("New Sequence = %v\n", newNext())
 
+	fmt.Println("-----------------------------------------------")
+
 }
 
 // func functionName returnFunc returnFuncType {}
