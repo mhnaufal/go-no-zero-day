@@ -10,6 +10,7 @@ import (
 	"no-zero-day/day_6"
 	"no-zero-day/day_7"
 	"no-zero-day/day_8"
+	"no-zero-day/day_9"
 )
 
 func main() {
@@ -38,4 +39,7 @@ func main() {
 
 	fmt.Println("\nDay Eight")
 	day_8.Closure()
+
+	fmt.Println("\nDay Nine")
+	day_9.Defer()
 }
