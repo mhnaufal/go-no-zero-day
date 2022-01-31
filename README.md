@@ -10,6 +10,7 @@ go run main.go other.go
 
 - [dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
 - [gobyexample](https://gobyexample.com/)
+- [golang-book](https://www.golang-book.com/books/intro/)
 
 ### 📅 Day 1
 
@@ -62,3 +63,10 @@ go run main.go other.go
 - Go support for anonymous functions
 - [Closure](<https://en.wikipedia.org/wiki/Closure_(computer_programming)>)
 - Closure is like a function inside a closure with non-local variables
+
+### 📅 Day 9
+
+- Defer, panic, recover
+- Defer is a statement which make a function to be run after the function completes
+- 'Panic' is a function that cause a run time error. To handle this we can use 'recover' function
+- 'Recover' usually paired with 'defer' to handle the 'panic'
