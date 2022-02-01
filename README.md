@@ -70,3 +70,10 @@ go run main.go other.go
 - Defer is a statement which make a function to be run after the function completes
 - 'Panic' is a function that cause a run time error. To handle this we can use 'recover' function
 - 'Recover' usually paired with 'defer' to handle the 'panic'
+
+### 📅 Day 10
+
+- Pointer reference a location in memory where the value of a variable is stored
+- [Pointer](https://www.golang-book.com/books/intro/8)
+- Pointer can be created by using new() keyword
+- Go has garbage collector so that memory cleaned up automatically when nothing refer it anymore
