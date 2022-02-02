@@ -77,3 +77,7 @@ go run main.go other.go
 - [Pointer](https://www.golang-book.com/books/intro/8)
 - Pointer can be created by using new() keyword
 - Go has garbage collector so that memory cleaned up automatically when nothing refer it anymore
+
+### 📅 Day 11
+
+- Struct
