@@ -12,6 +12,7 @@ import (
 	"no-zero-day/day_8"
 	"no-zero-day/day_9"
 	"no-zero-day/day_10"
+	"no-zero-day/day_11"
 )
 
 func main() {
@@ -46,4 +47,7 @@ func main() {
 
 	fmt.Println("\nDay Ten")
 	day_10.Pointer()
+	
+	fmt.Println("\nDay Eleven")
+	day_11.Struct()
 }
