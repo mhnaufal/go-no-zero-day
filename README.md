@@ -81,3 +81,9 @@ go run main.go other.go
 ### 📅 Day 11
 
 - Struct
+
+### 📅 Day 12
+
+- Method for struct
+- We can use method pointer in strut to change a value for the struct implementation
+- Method define corresponding to a struct
