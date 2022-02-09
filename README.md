@@ -91,4 +91,11 @@ go run main.go other.go
 ### 📅 Day 13
 
 - Interface
-- 
+
+
+### 📅 Day 14
+
+- Goroutines
+- It's not a really thread but a 'mini-thread'
+- Relatively small (only 2kB per goroutine)
+- Executed asynchronously
