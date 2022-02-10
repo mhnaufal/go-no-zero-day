@@ -17,6 +17,7 @@ import (
 	"no-zero-day/day_13"
 	"no-zero-day/day_14"
 	"no-zero-day/day_15"
+	"no-zero-day/day_16"
 )
 
 func main() {
@@ -66,4 +67,7 @@ func main() {
 
 	fmt.Println("\nDay Fiveteen")
 	day_15.Channel()
+
+	fmt.Println("\nDay Sixteen")
+	day_16.Buffer()
 }

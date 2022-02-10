@@ -104,3 +104,11 @@ go run main.go other.go
 
 - Bridge the communication between goroutines
 - Run synchronously
+- Unbufferd
+
+### 📅 Day 16
+
+- Buffer
+- Sender run it asynchronously
+- Receiver run it synchronously
+- 
