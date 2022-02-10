@@ -7,7 +7,7 @@ func Channel() {
 	var message = make(chan string)
 
 	var greeting = func(whom string) {
-		var data = fmt.Sprintf("Hello %v\v", whom)
+		var data = fmt.Sprintf("Hello %v\n", whom)
 		message <- data
 	}
 
