@@ -99,3 +99,8 @@ go run main.go other.go
 - It's not a really thread but a 'mini-thread'
 - Relatively small (only 2kB per goroutine)
 - Executed asynchronously
+
+### 📅 Day 15
+
+- Bridge the communication between goroutines
+- Run synchronously
