@@ -112,3 +112,7 @@ go run main.go other.go
 - Sender run it asynchronously
 - Receiver run it synchronously
 - 
+
+### 📅 Day 17
+- Channel select
+-
