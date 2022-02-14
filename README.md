@@ -116,3 +116,6 @@ go run main.go other.go
 ### 📅 Day 17
 - Channel select
 -
+
+### 📅 Day 18
+- Data type conversion
