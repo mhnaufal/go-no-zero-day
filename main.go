@@ -18,6 +18,7 @@ import (
 	"no-zero-day/day_14"
 	"no-zero-day/day_15"
 	"no-zero-day/day_16"
+	"no-zero-day/day_17"
 )
 
 func main() {
@@ -70,4 +71,8 @@ func main() {
 
 	fmt.Println("\nDay Sixteen")
 	day_16.Buffer()
+
+	fmt.Println("\nDay Seventeen")
+	day_17.Select()
 }
+
