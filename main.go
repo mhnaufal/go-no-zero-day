@@ -3,14 +3,6 @@ package main
 import (
 	"fmt"
 	"no-zero-day/day_1"
-	"no-zero-day/day_2"
-	"no-zero-day/day_3"
-	"no-zero-day/day_4"
-	"no-zero-day/day_5"
-	"no-zero-day/day_6"
-	"no-zero-day/day_7"
-	"no-zero-day/day_8"
-	"no-zero-day/day_9"
 	"no-zero-day/day_10"
 	"no-zero-day/day_11"
 	"no-zero-day/day_12"
@@ -19,6 +11,15 @@ import (
 	"no-zero-day/day_15"
 	"no-zero-day/day_16"
 	"no-zero-day/day_17"
+	"no-zero-day/day_18"
+	"no-zero-day/day_2"
+	"no-zero-day/day_3"
+	"no-zero-day/day_4"
+	"no-zero-day/day_5"
+	"no-zero-day/day_6"
+	"no-zero-day/day_7"
+	"no-zero-day/day_8"
+	"no-zero-day/day_9"
 )
 
 func main() {
@@ -53,10 +54,10 @@ func main() {
 
 	fmt.Println("\nDay Ten")
 	day_10.Pointer()
-	
+
 	fmt.Println("\nDay Eleven")
 	day_11.Struct()
-	
+
 	fmt.Println("\nDay Twelve")
 	day_12.Method()
 
@@ -74,5 +75,7 @@ func main() {
 
 	fmt.Println("\nDay Seventeen")
 	day_17.Select()
-}
 
+	fmt.Println("\nDay Eighteen")
+	day_18.Con()
+}
