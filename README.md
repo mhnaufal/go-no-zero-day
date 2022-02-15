@@ -119,3 +119,7 @@ go run main.go other.go
 
 ### 📅 Day 18
 - Data type conversion
+
+### 📅 Day 19
+- Strings built in function
+- Contains, HasPrefix, HasSuffix, Count
