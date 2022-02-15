@@ -12,6 +12,7 @@ import (
 	"no-zero-day/day_16"
 	"no-zero-day/day_17"
 	"no-zero-day/day_18"
+	"no-zero-day/day_19"
 	"no-zero-day/day_2"
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
@@ -78,4 +79,8 @@ func main() {
 
 	fmt.Println("\nDay Eighteen")
 	day_18.Con()
+
+	fmt.Println("\nDay Nineteen")
+	day_19.Strings()
+
 }
