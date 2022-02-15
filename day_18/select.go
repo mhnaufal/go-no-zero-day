@@ -14,5 +14,5 @@ func Con() {
 	var num2 = 321
 	var str2 = strconv.Itoa(num2)
 
-    fmt.Println(str2)
+	fmt.Println(str2)
 }
