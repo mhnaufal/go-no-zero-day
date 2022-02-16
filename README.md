@@ -123,3 +123,6 @@ go run main.go other.go
 ### 📅 Day 19
 - Strings built in function
 - Contains, HasPrefix, HasSuffix, Count
+
+### 📅 Day 20
+- Exec used to run command on terminal
