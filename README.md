@@ -126,3 +126,6 @@ go run main.go other.go
 
 ### 📅 Day 20
 - Exec used to run command on terminal
+
+### 📅 Day 21
+- 
