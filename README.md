@@ -128,4 +128,10 @@ go run main.go other.go
 - Exec used to run command on terminal
 
 ### 📅 Day 21
-- 
+- File operation
+- Opening file
+
+### 📅 Day 22
+- File operation
+- Writing into file
+- WriteString() will replace the current file data with the given one
