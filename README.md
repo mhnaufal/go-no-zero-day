@@ -135,3 +135,9 @@ go run main.go other.go
 - File operation
 - Writing into file
 - WriteString() will replace the current file data with the given one
+
+### 📅 Day 23
+- Web server
+- Use net/http package
+- Go has a built-in template engine
+- Path to the template file relative to current working directory
