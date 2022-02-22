@@ -17,6 +17,7 @@ import (
 	// "no-zero-day/day_20"
 	"no-zero-day/day_21_22"
 	"no-zero-day/day_23"
+	"no-zero-day/day_24"
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
@@ -95,4 +96,6 @@ func main() {
 	fmt.Println("\nDay Twenty Three")
 	day_23.Server()
 
+	fmt.Println("\nDay Twenty Four")
+	day_24.Url()
 }
