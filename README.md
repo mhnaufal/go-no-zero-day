@@ -141,3 +141,8 @@ go run main.go other.go
 - Use net/http package
 - Go has a built-in template engine
 - Path to the template file relative to current working directory
+
+
+### 📅 Day 24
+- Url parsing
+- By parse the URL we will get more information such as protocol, hostname, query string etc 
