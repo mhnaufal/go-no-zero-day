@@ -149,3 +149,8 @@ go run main.go other.go
 ### 📅 Day 25
 - JSON data in Go
 - Unmarshall accept []byte to be converted
+
+### 📅 Day 26
+- Web service
+- r for the Request method
+- w for the Response method
