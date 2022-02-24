@@ -19,6 +19,7 @@ import (
 	"no-zero-day/day_23"
 	"no-zero-day/day_24"
 	"no-zero-day/day_25"
+	"no-zero-day/day_26"
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
@@ -102,5 +103,8 @@ func main() {
 
 	fmt.Println("\nDay Twenty Five")
 	day_25.Json()
+	
+	fmt.Println("\nDay Twenty Six")
+	day_26.Service()
 
 }
