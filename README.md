@@ -17,6 +17,7 @@ go run main.go other.go
 - Every go package has main function that ack like main in C or C++
 - Go program run started from main function
 - Command for run function in other file
+- Sprintf (saved printf) in Go similiar to Printf but it also save the string
 
 ### 📅 Day 2
 
@@ -31,6 +32,7 @@ go run main.go other.go
 - Looping each element in the array
 - Array in Go refer to the entire array not just the first element like in C language
 - When we call array[2] it means we create a copy of the third element of the array, NOT reference to the actual array element itself
+- Array is fixed length
 
 ### 📅 Day 4
 
@@ -40,6 +42,7 @@ go run main.go other.go
 - Slice do not copy the array instead it creates a new value that point/refer to the original array
 - Slice function: copy, append, cap, len
 - Array is a set of element whereas slice is reference to each of the element
+- Slice length is not fixed
 
 ### 📅 Day 5
 
