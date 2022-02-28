@@ -157,3 +157,7 @@ go run main.go other.go
 - Web service
 - r for the Request method
 - w for the Response method
+
+### 📅 Day 27
+- Client HTTP request
+- 
