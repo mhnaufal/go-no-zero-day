@@ -95,7 +95,6 @@ go run main.go other.go
 
 - Interface
 
-
 ### 📅 Day 14
 
 - Goroutines
@@ -114,50 +113,68 @@ go run main.go other.go
 - Buffer
 - Sender run it asynchronously
 - Receiver run it synchronously
-- 
+-
 
 ### 📅 Day 17
+
 - Channel select
 -
 
 ### 📅 Day 18
+
 - Data type conversion
 
 ### 📅 Day 19
+
 - Strings built in function
 - Contains, HasPrefix, HasSuffix, Count
 
 ### 📅 Day 20
+
 - Exec used to run command on terminal
 
 ### 📅 Day 21
+
 - File operation
 - Opening file
 
 ### 📅 Day 22
+
 - File operation
 - Writing into file
 - WriteString() will replace the current file data with the given one
 
 ### 📅 Day 23
+
 - Web server
 - Use net/http package
 - Go has a built-in template engine
 - Path to the template file relative to current working directory
 
 ### 📅 Day 24
+
 - Url parsing
-- By parse the URL we will get more information such as protocol, hostname, query string etc 
+- By parse the URL we will get more information such as protocol, hostname, query string etc
 
 ### 📅 Day 25
+
 - JSON data in Go
 - Unmarshall accept []byte to be converted
 
 ### 📅 Day 26
+
 - Web service
 - r for the Request method
 - w for the Response method
 
 ### 📅 Day 27
+
 - Client HTTP request
+-
+
+### 📅 Day 28
+
+- Connecting Go with SQL (MySql) database engine
+- Connection schema => **user:password@tcp(host:port)/dbname**
+- Database connection & SQL query must be closed after being called
 - 
