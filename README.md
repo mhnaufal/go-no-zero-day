@@ -178,3 +178,9 @@ go run main.go other.go
 - Connection schema => **user:password@tcp(host:port)/dbname**
 - Database connection & SQL query must be closed after being called
 - 
+
+### 📅 Day 29
+
+- db.Query result rows
+- db.QueryRow result rows
+- db.Prepare to create a _reuseable_ query statement
