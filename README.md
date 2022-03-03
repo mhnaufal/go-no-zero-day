@@ -184,3 +184,7 @@ go run main.go other.go
 - db.Query result rows
 - db.QueryRow result rows
 - db.Prepare to create a _reuseable_ query statement
+
+### 📅 Day 30
+
+- Insert, Update, Delete
