@@ -1,4 +1,4 @@
-package day_28_29
+package day_28_29_30
 
 import "fmt"
 import "database/sql"
@@ -14,6 +14,7 @@ type student struct {
 func Sql() {
 	sqlQuery()
 	sqlPrepare()
+	sqlCrud()
 }
 
 func connect() (*sql.DB, error) {
@@ -98,4 +99,21 @@ func sqlPrepare() {
 	/// run the prepared query
 	query.QueryRow("E001").Scan(&result1.name, &result1.grade)
 	fmt.Printf("Name: %v -- Grade %v\n", result1.name, result1.grade)
+}
+func sqlCrud() {
+	db, err := connect()
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+	defer db.Close()
+
+	_, err = db.Exec("INSERT INTO tb_student VALUE (?, ?, ?, ?)", "F001", "Lancelot", 23, 9)
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+
+	fmt.Println("Insert succeed")
+
 }
