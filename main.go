@@ -21,7 +21,7 @@ import (
 	"no-zero-day/day_25"
 	"no-zero-day/day_26"
 	"no-zero-day/day_27"
-	"no-zero-day/day_28_29"
+	"no-zero-day/day_28_29_30"
 	"no-zero-day/day_3"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
@@ -105,13 +105,13 @@ func main() {
 
 	fmt.Println("\nDay Twenty Five")
 	day_25.Json()
-	
+
 	fmt.Println("\nDay Twenty Six")
 	day_26.Service()
 
 	fmt.Println("\nDay Twenty Seven")
 	day_27.Client()
-	
-	fmt.Println("\nDay Twenty Eight")
-	day_28_29.Sql()
+
+	fmt.Println("\nDay Twenty Eight, Twenty Nine, and Thirty")
+	day_28_29_30.Sql()
 }
