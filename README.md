@@ -188,3 +188,9 @@ go run main.go other.go
 ### 📅 Day 30
 
 - Insert, Update, Delete
+
+### 📅 Day 31
+
+- Go has built in unit test, no need for third-party library
+- Testing file must end with ```*_test.go```
+- Run the test with ```go test file.go file_test.go -v```
