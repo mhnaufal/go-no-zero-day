@@ -24,6 +24,7 @@ import (
 	"no-zero-day/day_28_29_30"
 	"no-zero-day/day_3"
 	"no-zero-day/day_31"
+	"no-zero-day/day_32"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
 	"no-zero-day/day_6"
@@ -115,7 +116,10 @@ func main() {
 
 	fmt.Println("\nDay Twenty Eight, Twenty Nine, and Thirty")
 	day_28_29_30.Sql()
-	
+
 	fmt.Println("\nDay Thirty One")
 	day_31.Test()
+
+	fmt.Println("\nDay Thirty Two")
+	day_32.SyncWaitGroup()
 }
