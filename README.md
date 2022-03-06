@@ -73,6 +73,7 @@ go run main.go other.go
 - Defer is a statement which make a function to be run after the function completes
 - 'Panic' is a function that cause a run time error. To handle this we can use 'recover' function
 - 'Recover' usually paired with 'defer' to handle the 'panic'
+- defer mean delay the execution block until the nearby function return
 
 ### 📅 Day 10
 
@@ -177,7 +178,7 @@ go run main.go other.go
 - Connecting Go with SQL (MySql) database engine
 - Connection schema => **user:password@tcp(host:port)/dbname**
 - Database connection & SQL query must be closed after being called
-- 
+-
 
 ### 📅 Day 29
 
@@ -192,5 +193,11 @@ go run main.go other.go
 ### 📅 Day 31
 
 - Go has built in unit test, no need for third-party library
-- Testing file must end with ```*_test.go```
-- Run the test with ```go test file.go file_test.go -v```
+- Testing file must end with `*_test.go`
+- Run the test with `go test file.go file_test.go -v`
+
+### 📅 Day 32
+
+- Sync Wait Group
+- (not) Similiar to channel that used to communicate between goroutine
+- Used to synchronous the goroutine
