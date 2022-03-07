@@ -201,3 +201,9 @@ go run main.go other.go
 - Sync Wait Group
 - (not) Similiar to channel that used to communicate between goroutine
 - Used to synchronous the goroutine
+
+### 📅 Day 33
+
+- Generics
+- A little bit of harder to write Generic in Go than in others programming language
+- Need Go version 1.18 😭
