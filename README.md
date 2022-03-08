@@ -207,3 +207,9 @@ go run main.go other.go
 - Generics
 - A little bit of harder to write Generic in Go than in others programming language
 - Need Go version 1.18 😭
+
+### 📅 Day 34
+
+- Serve static file (CSS, JS, image) in Go
+- To serve static file, use http.Handle along side with http.FileServer
+- Use http.StripPrefix to manage the correct URL
