@@ -213,3 +213,7 @@ go run main.go other.go
 - Serve static file (CSS, JS, image) in Go
 - To serve static file, use http.Handle along side with http.FileServer
 - Use http.StripPrefix to manage the correct URL
+
+### 📅 Day 35
+
+- HTTP POST & GET method
