@@ -28,6 +28,7 @@ import (
 	// "no-zero-day/day_33"
 	"no-zero-day/day_34"
 	"no-zero-day/day_35"
+	"no-zero-day/day_36"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
 	"no-zero-day/day_6"
@@ -134,4 +135,7 @@ func main() {
 
 	fmt.Println("\nDay Thirty Five")
 	day_35.Method()
+
+	fmt.Println("\nDay Thirty Six")
+	day_36.Form()
 }
