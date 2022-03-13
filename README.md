@@ -225,3 +225,8 @@ type StructName struct {}
 ### 📅 Day 36 ✔️ Web app form
 
 - Getting the form value
+
+### 📅 Day 37 ✔️ Web app upload file
+
+- How to upload file through HTML form
+- There's a lot of steps to handle this (Parse multipart/form, handle the uploaded file, create a copy file, copy the content of uploaded file to the copy file)
