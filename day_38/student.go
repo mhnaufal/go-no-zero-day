@@ -1,5 +1,6 @@
 package main
 
+// Create a custom type
 var students = []*Student{}
 
 type Student struct {
