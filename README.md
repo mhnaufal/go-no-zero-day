@@ -233,8 +233,13 @@ type StructName struct {}
 
 ### 📅 Day 38 ❌ Http basic auth
 
-- 
+-
 
 ### 📅 Day 39 ❌ Http basic auth
 
-- 
+-
+
+### 📅 Day 40 ❌ Http basic auth
+
+- Go net/http package has a built in authentication system (\*http.Request.BasicAuth())
+- Don't forget to check the Http method, it is GET or POST and make sure it only access the correct route
