@@ -1,4 +1,4 @@
-package main
+package day_38
 
 // Create a custom type
 var students = []*Student{}

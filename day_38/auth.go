@@ -1,10 +1,10 @@
-package main
+package day_38
 
 import "net/http"
 import "fmt"
 import "encoding/json"
 
-func main() {
+func Auths() {
 	http.HandleFunc("/student", ActionStudent)
 
 	server := new(http.Server)
