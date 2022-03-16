@@ -145,6 +145,6 @@ func main() {
 	day_37.Upload()
 
 	fmt.Println("\nDay Thirty Eight & Nine")
-	day_38.Auth()
+	day_38.Auths()
 
 }
