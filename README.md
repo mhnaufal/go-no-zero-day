@@ -243,3 +243,7 @@ type StructName struct {}
 
 - Go net/http package has a built in authentication system (\*http.Request.BasicAuth())
 - Don't forget to check the Http method, it is GET or POST and make sure it only access the correct route
+
+### 📅 Day 41 ✔️ Cookie
+
+-
