@@ -248,3 +248,9 @@ type StructName struct {}
 
 - Golang has a built in Cookie within the http.Request object
 - We can use it to create and delete cookie
+
+### 📅 Day 42 ✔️ Project Structure
+
+- There's no official Go project structure
+- [Go project structure](https://github.com/golang-standards/project-layout/issues/117)
+- [Standard Go](https://github.com/golang-standards/project-layout)

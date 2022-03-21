@@ -1,0 +1,1 @@
+folder assets berisi static assets, seperti gambar, logo, dll.
