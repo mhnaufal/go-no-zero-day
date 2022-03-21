@@ -246,4 +246,5 @@ type StructName struct {}
 
 ### 📅 Day 41 ✔️ Cookie
 
--
+- Golang has a built in Cookie within the http.Request object
+- We can use it to create and delete cookie
