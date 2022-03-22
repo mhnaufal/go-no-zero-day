@@ -259,3 +259,8 @@ type StructName struct {}
 
 - Echo framework is one of the Go framework for building web apps.
 - Have a similiarity with ExpressJS
+
+### 📅 Day 44 ✔️ Echo Framework
+
+- Echo response context
+- .String(), .HTML(), .Redirect(), .JSON()
