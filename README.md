@@ -254,3 +254,8 @@ type StructName struct {}
 - There's no official Go project structure
 - [Go project structure](https://github.com/golang-standards/project-layout/issues/117)
 - [Standard Go](https://github.com/golang-standards/project-layout)
+
+### 📅 Day 43 ✔️ Echo Framework
+
+- Echo framework is one of the Go framework for building web apps.
+- Have a similiarity with ExpressJS
