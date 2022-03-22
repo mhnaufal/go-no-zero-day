@@ -32,6 +32,7 @@ import (
 	"no-zero-day/day_37"
 	"no-zero-day/day_38"
 	"no-zero-day/day_41"
+	"no-zero-day/day_43"
 	"no-zero-day/day_4"
 	"no-zero-day/day_5"
 	"no-zero-day/day_6"
@@ -148,7 +149,10 @@ func main() {
 	fmt.Println("\nDay Thirty Eight & Nine & Fourty")
 	day_38.Auths()
 	
-	fmt.Println("\nDay Fourty")
+	fmt.Println("\nDay Fourty One")
 	day_41.Cookie()
+	
+	fmt.Println("\nDay Fourty Three")
+	day_43.Echo()
 
 }
