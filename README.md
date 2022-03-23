@@ -264,3 +264,8 @@ type StructName struct {}
 
 - Echo response context
 - .String(), .HTML(), .Redirect(), .JSON()
+
+### 📅 Day 45 ✔️ Echo Framework
+
+- Parsing request
+- By query string, URL path param, & form data
