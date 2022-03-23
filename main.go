@@ -14,6 +14,8 @@ import (
 	"no-zero-day/day_18"
 	"no-zero-day/day_19"
 	"no-zero-day/day_2"
+	"no-zero-day/day_45"
+
 	// "no-zero-day/day_20"
 	"no-zero-day/day_21_22"
 	"no-zero-day/day_23"
@@ -25,16 +27,17 @@ import (
 	"no-zero-day/day_3"
 	"no-zero-day/day_31"
 	"no-zero-day/day_32"
+
 	// "no-zero-day/day_33"
 	"no-zero-day/day_34"
 	"no-zero-day/day_35"
 	"no-zero-day/day_36"
 	"no-zero-day/day_37"
 	"no-zero-day/day_38"
+	"no-zero-day/day_4"
 	"no-zero-day/day_41"
 	"no-zero-day/day_43"
 	"no-zero-day/day_44"
-	"no-zero-day/day_4"
 	"no-zero-day/day_5"
 	"no-zero-day/day_6"
 	"no-zero-day/day_7"
@@ -159,4 +162,6 @@ func main() {
 	fmt.Println("\nDay Fourty Four")
 	day_44.Echo()
 
+	fmt.Println("\nDay Fourty Five")
+	day_45.Echo()
 }
