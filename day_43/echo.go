@@ -1,13 +1,11 @@
 package day_43
 
 import (
-    "fmt"
     "github.com/labstack/echo"
     "net/http"
-    "strings"
 )
 
-type M map[string]Interface{}
+type M map[string]interface{}
 
 func Echo(){
 	r := echo.New()
