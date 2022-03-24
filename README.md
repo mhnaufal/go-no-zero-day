@@ -269,3 +269,7 @@ type StructName struct {}
 
 - Parsing request
 - By query string, URL path param, & form data
+
+### 📅 Day 46 ✔️ Echo Framework
+
+- Pasting HTTP request payload
