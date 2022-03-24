@@ -15,6 +15,7 @@ import (
 	"no-zero-day/day_19"
 	"no-zero-day/day_2"
 	"no-zero-day/day_45"
+	"no-zero-day/day_46"
 
 	// "no-zero-day/day_20"
 	"no-zero-day/day_21_22"
@@ -164,4 +165,7 @@ func main() {
 
 	fmt.Println("\nDay Fourty Five")
 	day_45.Echo()
+	
+	fmt.Println("\nDay Fourty Six")
+	day_46.Parsing()
 }
