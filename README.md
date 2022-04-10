@@ -273,3 +273,9 @@ type StructName struct {}
 ### 📅 Day 46 ✔️ Echo Framework
 
 - Pasting HTTP request payload
+
+### 📅 Day 47 ✔️ Validator in Echo
+
+- Uss the [Validator package](github.com/go-playground/validator/v10) to helps manage validation
+- Create a struct and put the validation rules inside there
+- Overwrite the validator from the Echo
