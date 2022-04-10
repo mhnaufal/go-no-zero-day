@@ -153,19 +153,21 @@ func main() {
 
 	fmt.Println("\nDay Thirty Eight & Nine & Fourty")
 	day_38.Auths()
-	
+
 	fmt.Println("\nDay Fourty One")
 	day_41.Cookie()
-	
+
 	fmt.Println("\nDay Fourty Three")
 	day_43.Echo()
-	
+
 	fmt.Println("\nDay Fourty Four")
 	day_44.Echo()
 
 	fmt.Println("\nDay Fourty Five")
 	day_45.Echo()
-	
+
 	fmt.Println("\nDay Fourty Six")
 	day_46.Parsing()
+
+	fmt.Println("\nDay Fourty Seven | Validator Echo framework")
 }
