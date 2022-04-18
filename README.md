@@ -279,3 +279,8 @@ type StructName struct {}
 - Uss the [Validator package](github.com/go-playground/validator/v10) to helps manage validation
 - Create a struct and put the validation rules inside there
 - Overwrite the validator from the Echo
+
+### 📅 Day 48 ✔️ Gofpdf
+
+- gofpdf.New(orientation, measure unit, doc size, path to font)
+- WTF this one is easy!
