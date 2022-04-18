@@ -13,6 +13,7 @@ go run main.go other.go
 - [dasarpemrogramangolang](https://dasarpemrogramangolang.novalagung.com/)
 - [gobyexample](https://gobyexample.com/)
 - [golang-book](https://www.golang-book.com/books/intro/)
+- [TDD in GO](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/)
 
 ### 📅 Day 1 ✔️ Basic
 
@@ -284,3 +285,12 @@ type StructName struct {}
 
 - gofpdf.New(orientation, measure unit, doc size, path to font)
 - WTF this one is easy!
+
+---
+
+### 📅 Day 49 ✔️ TDD
+
+- Red, Green, Refactor
+- Some rules regarding for test in Go
+  - File name must be **xxx_test.go**
+  - Test function start with **Test\_** and only take one argument **t \*testing.T**
