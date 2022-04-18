@@ -16,6 +16,7 @@ import (
 	"no-zero-day/day_2"
 	"no-zero-day/day_45"
 	"no-zero-day/day_46"
+	"no-zero-day/day_49"
 
 	// "no-zero-day/day_20"
 	"no-zero-day/day_21_22"
@@ -170,4 +171,7 @@ func main() {
 	day_46.Parsing()
 
 	fmt.Println("\nDay Fourty Seven | Validator Echo framework")
+
+	fmt.Println("\nDay Fourty Nine")
+	day_49.Hello()
 }
