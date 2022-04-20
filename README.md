@@ -288,9 +288,13 @@ type StructName struct {}
 
 ---
 
-### 📅 Day 49 ✔️ TDD
+### 📅 Day 49 & 50 ✔️ TDD
 
 - Red, Green, Refactor
 - Some rules regarding for test in Go
   - File name must be **xxx_test.go**
   - Test function start with **Test\_** and only take one argument **t \*testing.T**
+
+### 📅 Day 51 ✔️ Gin
+
+- Gin web framework
