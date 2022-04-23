@@ -295,6 +295,7 @@ type StructName struct {}
   - File name must be **xxx_test.go**
   - Test function start with **Test\_** and only take one argument **t \*testing.T**
 
-### 📅 Day 51 ✔️ Gin
+### 📅 Day 51, 52 ✔️ Gin
 
 - Gin web framework
+- We can create a custom logger for Gin
