@@ -15,6 +15,12 @@ go run main.go other.go
 - [golang-book](https://www.golang-book.com/books/intro/)
 - [TDD in GO](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/)
 
+### 📅 Special project | Mail Template API
+
+- Build an API for generate a mail template
+- Stack: Go, Gin
+- More in api folder
+
 ### 📅 Day 1 ✔️ Basic
 
 - Every go package has main function that ack like main in C or C++
