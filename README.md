@@ -15,11 +15,14 @@ go run main.go other.go
 - [golang-book](https://www.golang-book.com/books/intro/)
 - [TDD in GO](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/)
 
-### 📅 Special project | Mail Template API
+### 📅 The leftover
 
-- Build an API for generate a mail template
-- Stack: Go, Gin
-- More in api folder
+- I decided to end the daily notes until days 52 and continue my learning on Go language from these two fucking awesome resources
+
+  - [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
+  - [PZN](https://www.programmerzamannow.com/)
+
+... and placed inside the CONTINUE folder
 
 ### 📅 Day 1 ✔️ Basic
 

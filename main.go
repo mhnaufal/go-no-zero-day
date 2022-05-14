@@ -30,7 +30,7 @@ import (
 	"no-zero-day/day_31"
 	"no-zero-day/day_32"
 
-	// "no-zero-day/day_33"
+	"no-zero-day/day_33"
 	"no-zero-day/day_34"
 	"no-zero-day/day_35"
 	"no-zero-day/day_36"
@@ -137,8 +137,8 @@ func main() {
 	fmt.Println("\nDay Thirty Two")
 	day_32.SyncWaitGroup()
 
-	// fmt.Println("\nDay Thirty Three")
-	// day_33.Generics()
+	fmt.Println("\nDay Thirty Three")
+	day_33.Generics()
 
 	fmt.Println("\nDay Thirty Four")
 	day_34.Static()
