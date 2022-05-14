@@ -22,7 +22,7 @@ go run main.go other.go
   - [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
   - [PZN](https://www.programmerzamannow.com/)
 
-... and placed inside the CONTINUE folder
+... and placed inside the [CONTINUE](https://github.com/mhnaufal/go-no-zero-day/tree/main/CONTINUE) folder
 
 ### 📅 Day 1 ✔️ Basic
 
