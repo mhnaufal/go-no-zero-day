@@ -73,6 +73,34 @@ func Composite() {
 
 	fmt.Printf("slice: %v | Length: %v | capacity: %v\n", slice6, len(slice6), cap(slice6))
 
+	println()
+	// MAP
+	fmt.Println("[2] MAP")
+
+	villain := map[string]string{
+		"Joker":        "Live Laugh Laugh",
+		"Captain Cold": "Freeze",
+	}
+
+	fmt.Println("map: ", villain) // when printing like this, it will get sorted by key, so that Cpatain Cold comes first
+	fmt.Println("map: ", villain["Joker"])
+
+	villain["Captain Cold"] = "Feel cold feeling you"
+	fmt.Println("map: ", villain["Captain Cold"])
+
+	delete(villain, "Captain Cold")
+	fmt.Println("map: ", villain["Captain Cold"])
+
+	villain["The Riddle"] = "Tik tok, time taking..."
+
+	// comma ok idiom
+	v, ok := villain["The Riddle"]
+	if ok != false {
+		fmt.Println("map: ", v)
+	}
+
+	println()
+
 	fmt.Println("+------------------+")
 
 }
