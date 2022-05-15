@@ -1,4 +1,4 @@
-# Learning Go - An Idiomatic Approach to Real-World Go Programming
+# Learning Go - 'An Idiomatic Approach to Real-World Go Programming' & Go by Programmer Zaman Now
 
 [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
 
