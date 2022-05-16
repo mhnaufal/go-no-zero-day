@@ -37,3 +37,5 @@
 - Shadowing variables allowed in Go
 - There is a term called **Universal Block** in Go which consist of predefined identifiers such as _true_, _int_, _string_, etc
 - We can declare anything before the comparison on **if statement**, including function that doesn't return any value
+- Go provides the `goto` statement but its rarely used
+- `goto` can't jump to anywhere of the code, including it can't jump from a variable declarations
