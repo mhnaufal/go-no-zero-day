@@ -96,7 +96,5 @@ func Control() {
 
 	println()
 
-	println()
-
 	fmt.Println("+------------------+")
 }
