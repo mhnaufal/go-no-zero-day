@@ -86,5 +86,17 @@ func Control() {
 
 	println()
 
+	heroes := map[int]string{
+		0: "Batman",
+		1: "Aquaman",
+	}
+	for index, value := range heroes {
+		fmt.Printf("[%v] %v || ", index, value)
+	}
+
+	println()
+
+	println()
+
 	fmt.Println("+------------------+")
 }
