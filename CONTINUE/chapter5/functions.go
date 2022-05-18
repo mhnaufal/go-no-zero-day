@@ -23,6 +23,17 @@ func Funtion() {
 		fmt.Println("is spell casted? Yes")
 	}
 
+	println()
+
+	fmt.Println("VARIADIC FUNCTION")
+	calculateAfterDamage("Moamoa", 13, 14, 31)
+
+	println()
+
+	evolve("Bruddog", isCanEvolve)
+
+	println()
+
 	fmt.Println("+------------------+")
 }
 
@@ -47,4 +58,32 @@ func castSpell(spell string, manaCost int, currentMana int) (effect string, enha
 	}
 
 	return "Gaining effect...", (manaCost + currentMana) / 10
+}
+
+func calculateAfterDamage(targetMonster string, damages ...int) {
+	var totalDamageTaken = 0
+
+	for _, damage := range damages {
+		totalDamageTaken += damage
+	}
+
+	fmt.Printf("The monster [%v] takes a total of [%v] damage points\n", targetMonster, totalDamageTaken)
+}
+
+type Evolve func(monster string) bool
+
+func isCanEvolve(monster string) bool {
+	if monster == "" || len(monster) <= 3 {
+		return false
+	} else {
+		return true
+	}
+}
+
+func evolve(monster string, isCanEvolve Evolve) {
+	if isTheMonsterCanEvolve := isCanEvolve(monster); isTheMonsterCanEvolve {
+		fmt.Printf("The monster [%v] evolves to \"Super %v\"\n", monster, monster)
+	} else {
+		fmt.Printf("Can't evolve the monster!\n")
+	}
 }

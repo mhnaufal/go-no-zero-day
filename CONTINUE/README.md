@@ -39,3 +39,11 @@
 - We can declare anything before the comparison on **if statement**, including function that doesn't return any value
 - Go provides the `goto` statement but its rarely used
 - `goto` can't jump to anywhere of the code, including it can't jump from a variable declarations
+
+### Fuction
+
+- It's almost the same with function in other programming languages
+- Function in Go can have a multiple return values
+- Function in Go have a **named return values** which mean we can give return value a name like we do in function parameters
+- By doing that, it let the developer to just write `return` and it will give zero value as the return value
+- In Go, there is also a function called **variadic** function, which means a function that has _varargs_ as their last parameters and it can take some values like array (inifinitely?)
