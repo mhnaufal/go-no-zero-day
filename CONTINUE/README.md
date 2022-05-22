@@ -31,6 +31,7 @@
   - _capacity_: kapasitas slice, length tidak boleh lebih dari capacity
 - **Slice** is reference to array and the size can be change
 - **Slice** isn't comparable beside using `nil`
+- **Struct** = composite type consist of different data types called field
 
 ### Control Structures
 

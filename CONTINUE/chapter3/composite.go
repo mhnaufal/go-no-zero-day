@@ -74,6 +74,7 @@ func Composite() {
 	fmt.Printf("slice: %v | Length: %v | capacity: %v\n", slice6, len(slice6), cap(slice6))
 
 	println()
+
 	// MAP
 	fmt.Println("[2] MAP")
 
@@ -98,6 +99,21 @@ func Composite() {
 	if ok != false {
 		fmt.Println("map: ", v)
 	}
+
+	println()
+
+	// STRUCT
+	fmt.Println("[3] STRUCT")
+
+	type Pokemon struct {
+		name  string
+		level int
+	}
+
+	var pikachu Pokemon = Pokemon{"Pikachu", 13}
+
+	fmt.Println("Pokemon struct: ", pikachu)
+	fmt.Printf("Pokemon struct: Name: [%v]", pikachu.name)
 
 	println()
 
