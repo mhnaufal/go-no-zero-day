@@ -1,6 +1,9 @@
 package chapter5
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func Funtion() {
 	// FUNCTION
@@ -33,6 +36,26 @@ func Funtion() {
 	evolve("Bruddog", isCanEvolve)
 
 	println()
+
+	fmt.Println("ANONYMOUS FUNCTION")
+
+	potion := "Dark Magic"
+	canIBuyThisPotion := func(name string, price float32) bool {
+		if strings.ToLower(name) != "dark magic" {
+			fmt.Printf("You buy \"%v\" for [%v]\n", name, price)
+			return true
+		}
+		fmt.Println("FORBIDDEN potion can't be bought!")
+		return false
+	}
+
+	println("-> ", canIBuyThisPotion(potion, 32))
+
+	println()
+
+	fmt.Println("DEFER PANIC RECOVER")
+
+	isCanEvolve("Pee")
 
 	fmt.Println("+------------------+")
 }
@@ -73,7 +96,10 @@ func calculateAfterDamage(targetMonster string, damages ...int) {
 type Evolve func(monster string) bool
 
 func isCanEvolve(monster string) bool {
+	defer logging() // pay attention to what function get defer here
+
 	if monster == "" || len(monster) <= 3 {
+		panic("can't evolve an empty monster") // panic will get back up until it meet with defer, then it will go into the defer and see if there is a recover()
 		return false
 	} else {
 		return true
@@ -86,4 +112,14 @@ func evolve(monster string, isCanEvolve Evolve) {
 	} else {
 		fmt.Printf("Can't evolve the monster!\n")
 	}
+}
+
+func logging() {
+	message := recover() // get called by the panic by popping out the stack
+
+	if message != nil {
+		fmt.Println("ERROR: ", message)
+	}
+
+	fmt.Println("[#] executing program...")
 }

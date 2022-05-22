@@ -47,3 +47,8 @@
 - Function in Go have a **named return values** which mean we can give return value a name like we do in function parameters
 - By doing that, it let the developer to just write `return` and it will give zero value as the return value
 - In Go, there is also a function called **variadic** function, which means a function that has _varargs_ as their last parameters and it can take some values like array (inifinitely?)
+- **Closure** = ability of a function to interact with datas around it within the same block of scope
+- **Defer** = invoke a funciton after another function get invoked
+- **Panic** = function used to terminte a program. Get invoked when there is an error within our program. Program execution will stop, but defer will be still get invoked
+- **Recover** = function that takes _Panic_ and it makes program execution continue
+- Recover will try to pop up execution stack or instead of go below of the function it will go back up until it meet with the `defer function()`, and from there it will called the `recover`
