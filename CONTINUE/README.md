@@ -32,6 +32,10 @@
 - **Slice** is reference to array and the size can be change
 - **Slice** isn't comparable beside using `nil`
 - **Struct** = composite type consist of different data types called field
+- Struct can have a method or called struct method
+- **Interface** define a contract of a method, similiar to abstract class in OOP
+- Go has a signature called **Empty Interface** which means the interface can hold any data
+- `interface{}` for creating empty interface
 
 ### Control Structures
 

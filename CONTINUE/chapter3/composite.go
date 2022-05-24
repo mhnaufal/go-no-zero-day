@@ -108,11 +108,19 @@ func Composite() {
 	var pikachu Pokemon = Pokemon{"Pikachu", 13}
 
 	fmt.Println("Pokemon struct: ", pikachu)
-	fmt.Printf("Pokemon struct: Name: [%v]", pikachu.name)
+	fmt.Printf("Pokemon struct: Name: [%v]\n", pikachu.name)
 
 	println()
 
 	pikachu.getInfo()
+
+	println()
+
+	// INTERFACE
+	fmt.Println("[4] INTERFACE")
+
+	fmt.Printf("My \"%v\" is on level \"%v\"\n", pikachu.GetName(), pikachu.GetLevel())
+	fmt.Printf("empty interface: %v\n", Any())
 
 	println()
 
@@ -129,4 +137,26 @@ type Pokemon struct {
 // Struct Method
 func (pokemon Pokemon) getInfo() {
 	fmt.Printf("INFO --> [%v]-[%v]\n", pokemon.name, pokemon.level)
+}
+
+// Interface
+type BaseMonster interface {
+	GetLevel() int
+	GetName() string
+}
+
+// Implement Interface Method
+// see there is no explicit declarations of the interface.
+// Go implicitly implement an interface, if the method has 'exactly' the same signature with the method in the interface
+func (pokemon Pokemon) GetLevel() int {
+	return pokemon.level
+}
+
+func (pokemon Pokemon) GetName() string {
+	return pokemon.name
+}
+
+// Empty Interface
+func Any() interface{} {
+	return nil
 }
