@@ -105,11 +105,6 @@ func Composite() {
 	// STRUCT
 	fmt.Println("[3] STRUCT")
 
-	type Pokemon struct {
-		name  string
-		level int
-	}
-
 	var pikachu Pokemon = Pokemon{"Pikachu", 13}
 
 	fmt.Println("Pokemon struct: ", pikachu)
@@ -117,6 +112,21 @@ func Composite() {
 
 	println()
 
+	pikachu.getInfo()
+
+	println()
+
 	fmt.Println("+------------------+")
 
+}
+
+// Struct
+type Pokemon struct {
+	name  string
+	level int
+}
+
+// Struct Method
+func (pokemon Pokemon) getInfo() {
+	fmt.Printf("INFO --> [%v]-[%v]\n", pokemon.name, pokemon.level)
 }
