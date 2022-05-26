@@ -36,6 +36,7 @@
 - **Interface** define a contract of a method, similiar to abstract class in OOP
 - Go has a signature called **Empty Interface** which means the interface can hold any data
 - `interface{}` for creating empty interface
+- Go memiliki built-in **error interface** yang digunakan untuk mengelola error di Go
 
 ### Control Structures
 

@@ -1,6 +1,9 @@
 package chapter3
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 func Composite() {
 	// COMPOSITE TYPE
@@ -121,6 +124,22 @@ func Composite() {
 
 	fmt.Printf("My \"%v\" is on level \"%v\"\n", pikachu.GetName(), pikachu.GetLevel())
 	fmt.Printf("empty interface: %v\n", Any())
+
+	println()
+
+	// ERROR INTERFACE
+	fmt.Println("[4.5] ERROR INTERFACE")
+
+	var pokemonError error = errors.New("This Pokemon still error!")
+	fmt.Println("error interface: ", pokemonError.Error()) // get the string text of from using .Error()
+
+	println()
+
+	// TYPE ASSERTION
+	fmt.Println("[5] TYPE ASSERTION")
+
+	var pokePower interface{} = 303 // must be type of interface{}
+	fmt.Println("new poke power in int: ", pokePower.(int))
 
 	println()
 
