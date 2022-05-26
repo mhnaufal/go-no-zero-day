@@ -58,3 +58,10 @@
 - **Panic** = function used to terminte a program. Get invoked when there is an error within our program. Program execution will stop, but defer will be still get invoked
 - **Recover** = function that takes _Panic_ and it makes program execution continue
 - Recover will try to pop up execution stack or instead of go below of the function it will go back up until it meet with the `defer function()`, and from there it will called the `recover`
+
+### Pointer
+
+- Go default behaviour is _pass by value_ a variable, not _by reference_. It means that, if we send a variable to another function,
+  the destinated function will get a **copy of the variable**, not the variable itself
+- **\*** = type pointer or dereference (from _memory address_ to _value_)
+- **&** = reference (from _value_ to _memory address_)
