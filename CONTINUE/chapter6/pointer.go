@@ -1,6 +1,10 @@
 package chapter6
 
-import "fmt"
+import (
+	"container/list"
+	"fmt"
+	"time"
+)
 
 type Data struct {
 	key, value string
@@ -60,6 +64,33 @@ func Pointer() {
 
 	realInvertKeyValue(&job) // get the "reference" from variable job. If we only use 'job' it will get the value, not the pointer
 	fmt.Println("after REAL inverse: ", job)
+
+	println()
+
+	// LINKED LIST
+	fmt.Println("[3] LINKED LIST")
+
+	var itemList *list.List = list.New()
+	itemList.PushBack("potion") // insert into the last element
+	itemList.PushFront("mana")  // insert into the first element
+
+	for i := itemList.Front(); i != nil; i = i.Next() {
+		fmt.Printf("%v ", i)
+	}
+	println()
+	fmt.Printf("first: %v\n", itemList.Front().Value)
+
+	println()
+
+	// PACKAGE TIME
+	fmt.Println("[4] PACKAGE TIME")
+
+	now := time.Now()
+	fmt.Println("current time: ", now)
+
+	var layout = "2006-01-02"
+	parseTime, _ := time.Parse(layout, "1990-03-20") // WTF is this??
+	fmt.Println("parsed time: ", parseTime)
 
 	println()
 }
