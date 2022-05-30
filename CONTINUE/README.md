@@ -65,3 +65,13 @@
   the destinated function will get a **copy of the variable**, not the variable itself
 - **\*** = type pointer or dereference (from _memory address_ to _value_)
 - **&** = reference (from _value_ to _memory address_)
+
+### Testing
+
+- **testing.T** to make a unit test in Go
+- **testing.M** to manage the testing life cycle
+- **testing.B** to calculate code bencmarks or code speed
+- **t.Fail()** : thwart the unit test, but still continue the other tests
+- **t.FailNow()** : failed the unit test right away without continuing the unit test execution
+- **t.Error()** : like t.Fail() but with error message
+- **t.Fatal()** : like t.FailNow() but with error message
