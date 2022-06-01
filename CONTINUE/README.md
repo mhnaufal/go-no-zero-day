@@ -69,9 +69,12 @@
 ### Testing
 
 - **testing.T** to make a unit test in Go
-- **testing.M** to manage the testing life cycle
+- **testing.M** to manage the testing life cycle. Get invoked in the beginning of the package
 - **testing.B** to calculate code bencmarks or code speed
 - **t.Fail()** : thwart the unit test, but still continue the other tests
 - **t.FailNow()** : failed the unit test right away without continuing the unit test execution
 - **t.Error()** : like t.Fail() but with error message
 - **t.Fatal()** : like t.FailNow() but with error message
+- Run test with `go test ./... -v`
+- **t.Skip()**  : skip a test
+- **t.Run()** : sub test
