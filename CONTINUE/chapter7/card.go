@@ -14,3 +14,13 @@ func DrawCard(cardLeft *int) string {
 
 	return "Monster Card"
 }
+
+func PlayCard(handCards *int) string {
+	*handCards = *handCards - 1
+
+	return "Spell Card"
+}
+
+func PrintCard(cardName string) string {
+	return cardName
+}
