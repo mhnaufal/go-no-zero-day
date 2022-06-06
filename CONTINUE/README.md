@@ -78,3 +78,5 @@
 - Run test with `go test ./... -v`
 - **t.Skip()**  : skip a test
 - **t.Run()** : sub test
+- Mock object used to create a mock test in Go
+- Mock test ex: access database, access 3rd party API
