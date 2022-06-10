@@ -76,7 +76,12 @@
 - **t.Error()** : like t.Fail() but with error message
 - **t.Fatal()** : like t.FailNow() but with error message
 - Run test with `go test ./... -v`
-- **t.Skip()**  : skip a test
+- **t.Skip()** : skip a test
 - **t.Run()** : sub test
 - Mock object used to create a mock test in Go
 - Mock test ex: access database, access 3rd party API
+- Run all benchmark and unit test in a module = `go test -v bench=.`
+- Run all benchmark and skipping the unit test = `go test -v -run=NotMathcUnitTest -bench=.`
+- Run certain benchmark = `go test -v -run=NotMathcUnitTest -bench=BenchmarkTest`
+- Run all benchmark in all module = `go test -v -bench=. ./...`
+- Run all benchmark in all module without the unit test = `go test -v -run=NotMatchUnitTest -bench=. ./...`

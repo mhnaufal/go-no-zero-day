@@ -71,3 +71,9 @@ func TestPrintCard(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkPlayCard(b *testing.B) {
+	for i := 0; i <= b.N; i++ {
+		PrintCard("Dark Magician")
+	}
+}
