@@ -85,3 +85,10 @@
 - Run certain benchmark = `go test -v -run=NotMathcUnitTest -bench=BenchmarkTest`
 - Run all benchmark in all module = `go test -v -bench=. ./...`
 - Run all benchmark in all module without the unit test = `go test -v -run=NotMatchUnitTest -bench=. ./...`
+
+### Parallel Programming
+
+- **Parallel** = run multiple processes simultaneously. Need many thread
+- **Concurrent** = run multiple processes consecutively. Only need some thread
+- Goroutine is not a thread, its run inside a thread concurrently
+- To run function in a goroutine, add keyword `go` in front of the function invocation name
