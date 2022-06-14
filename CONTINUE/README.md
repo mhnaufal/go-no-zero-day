@@ -92,3 +92,14 @@
 - **Concurrent** = run multiple processes consecutively. Only need some thread
 - Goroutine is not a thread, its run inside a thread concurrently
 - To run function in a goroutine, add keyword `go` in front of the function invocation name
+
+### Channel
+
+- To communicate between gorountines, we can use **Channel**
+- Channel use synchronous communication
+- When sending a channel, goroutine will be blocked until there is some
+  goroutine that receive it
+- One data, one datatype at a time
+- Use `chan` and `make()` with the datatype provided
+- Channel don't need pass by reference/pointer
+
