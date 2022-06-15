@@ -102,4 +102,9 @@
 - One data, one datatype at a time
 - Use `chan` and `make()` with the datatype provided
 - Channel don't need pass by reference/pointer
-
+- **Channel In** = `chan<-`, arrow in the right side of chan, only allow for
+  **receiving**
+- **Channel Out** = `<-chan`, arrow in the left side of chan, only allow for
+  **sending**
+- **Buffer** = A place where we can _store channel data_ if some cases the
+  receiver of goroutine response is slower than the sender
