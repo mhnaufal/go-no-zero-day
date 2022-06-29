@@ -108,3 +108,4 @@
   **sending**
 - **Buffer** = A place where we can _store channel data_ if some cases the
   receiver of goroutine response is slower than the sender
+- **Range Channel** = Iterate data inside channel
