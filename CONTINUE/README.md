@@ -102,10 +102,25 @@
 - One data, one datatype at a time
 - Use `chan` and `make()` with the datatype provided
 - Channel don't need pass by reference/pointer
-- **Channel In** = `chan<-`, arrow in the right side of chan, only allow for
+- **Channel In** = `chan<-`, arrow on the right side of chan, only allow for
   **receiving**
-- **Channel Out** = `<-chan`, arrow in the left side of chan, only allow for
+- **Channel Out** = `<-chan`, arrow on the left side of chan, only allow for
   **sending**
 - **Buffer** = A place where we can _store channel data_ if some cases the
   receiver of goroutine response is slower than the sender
 - **Range Channel** = Iterate data inside channel
+- **Select Channel** = Choose a data from some channels
+
+### Context
+
+- Data that brings value, cancel, timeout, and deadline
+- Created per request
+- To send data between request or signal
+- _Background_ context
+- _TODO_ context
+- **One parent** context can has a lot of **child** context, but **one child** only has **one parent**
+- Parent **inherit** their signature to child
+- Context **immutable** & empty by default. If we try to make chnages to a context, its actually create a new child context, instead of editing the existing one
+- **Get Value** will check from the current context up to parent context, NOT to child context
+
+## Go Architecture
