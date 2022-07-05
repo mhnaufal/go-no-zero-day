@@ -122,5 +122,8 @@
 - Parent **inherit** their signature to child
 - Context **immutable** & empty by default. If we try to make chnages to a context, its actually create a new child context, instead of editing the existing one
 - **Get Value** will check from the current context up to parent context, NOT to child context
+- Context can also have **Cancel** signal, that usually used in Goroutine
+- **Context Timeout** to execute cancel() function automatically when reach certain duration
+- **Context Deadline** similar to Timeout but instead define the duration, we define the deadline time
 
 ## Go Architecture
