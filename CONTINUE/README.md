@@ -126,4 +126,10 @@
 - **Context Timeout** to execute cancel() function automatically when reach certain duration
 - **Context Deadline** similar to Timeout but instead define the duration, we define the deadline time
 
+### Database
+
+- Go provide package database out of the box
+- Create **sql.DB** object using **sql.Open(driver, dataSourceName)**
+- After use the connection, **Close()** the connection
+
 ## Go Architecture
