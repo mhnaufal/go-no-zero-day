@@ -131,5 +131,6 @@
 - Go provide package database out of the box
 - Create **sql.DB** object using **sql.Open(driver, dataSourceName)**
 - After use the connection, **Close()** the connection
+- **Exec**, execute sql without needed of result like INSERT
 
 ## Go Architecture
