@@ -73,3 +73,23 @@ func TestQueryWithArguments(t *testing.T) {
 		fmt.Printf("ID: %v\nNama: %v\n", id, nama)
 	}
 }
+
+func TestInsertSqlAutoIncrement(t *testing.T) {
+	db := GetConnection()
+	defer db.Close()
+
+	ctx := context.Background()
+
+	qinsert := "INSERT INTO surat(nama) VALUES('izin');"
+	result, err := db.ExecContext(ctx, qinsert)
+	if err != nil {
+		panic(err)
+	}
+
+	insertId, err := result.LastInsertId()
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Successfully insert data with id ", insertId)
+}
