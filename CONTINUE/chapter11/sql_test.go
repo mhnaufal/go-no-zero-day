@@ -3,6 +3,7 @@ package chapter11
 import (
 	"context"
 	"fmt"
+	"strconv"
 	"testing"
 )
 
@@ -92,4 +93,62 @@ func TestInsertSqlAutoIncrement(t *testing.T) {
 	}
 
 	fmt.Println("Successfully insert data with id ", insertId)
+}
+
+func TestPrepareStatement(t *testing.T) {
+	db := GetConnection()
+	defer db.Close()
+
+	ctx := context.Background()
+	statement, err := db.PrepareContext(ctx, "INSERT INTO surat(nama) VALUES(?);")
+	if err != nil {
+		panic(err)
+	}
+
+	for i := 0; i < 10; i++ {
+		result, err := statement.ExecContext(ctx, "surat "+strconv.Itoa(i))
+		if err != nil {
+			panic(err)
+		}
+
+		id, err := result.LastInsertId()
+		if err != nil {
+			panic(err)
+		}
+
+		fmt.Println("Insert surat ", id)
+	}
+}
+
+func TestTransaction(t *testing.T) {
+	db := GetConnection()
+	defer db.Close()
+
+	ctx := context.Background()
+	tx, err := db.Begin()
+	if err != nil {
+		panic(err)
+	}
+
+	qtransaction := "INSERT INTO surat(nama) VALUES(?);"
+
+	for i := 0; i < 10; i++ {
+		result, err := tx.ExecContext(ctx, qtransaction, "surat "+strconv.Itoa(i))
+		if err != nil {
+			panic(err)
+		}
+
+		id, err := result.LastInsertId()
+		if err != nil {
+			panic(err)
+		}
+
+		fmt.Println("Insert surat ", id)
+	}
+
+	err = tx.Rollback() // rollback transaction
+	// err = tx.Commit()   // commit transaction
+	if err != nil {
+		panic(err)
+	}
 }
