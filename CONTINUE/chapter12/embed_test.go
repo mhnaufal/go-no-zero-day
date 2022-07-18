@@ -30,3 +30,26 @@ func TestMulti(t *testing.T) {
 	a, _ := multi.ReadFile("pass.txt")
 	fmt.Println(string(a))
 }
+
+//go:embed *.txt
+var path embed.FS
+
+func TestPathMatcher(t *testing.T) {
+	dirEntries, err := path.ReadDir(".")
+	if err != nil {
+		panic(err)
+	}
+
+	for _, entry := range dirEntries {
+		if !entry.IsDir() {
+			fmt.Println("Nama File: ", entry.Name())
+
+			file, err := path.ReadFile("" + entry.Name())
+			if err != nil {
+				panic(err)
+			}
+
+			fmt.Println(string(file))
+		}
+	}
+}

@@ -135,4 +135,10 @@
 - **Prepare statement**
 - **Transactoin**
 
+### Go Embed
+
+- Embed: Read file at compile time and put the content into a variable
+- Add **//go:embed** above variable that we aiming
+- Embed results are compiled into the Go binary file
+
 ## Go Architecture
